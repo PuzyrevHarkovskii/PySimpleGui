@@ -48,6 +48,8 @@ while True:
         
         
     if event == "Clear":
-        print(event)
+        current_num = []
+        full_operation = []
+        window['-TEXT-'].update("")
     
 window.close()
